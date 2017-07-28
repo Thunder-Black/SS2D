@@ -2,7 +2,8 @@ using UnityEngine;
 using System.Collections;
 
 public class Node {
-
+	
+	// Проходимость
     public bool walkable;
     public Vector2 worldPos;
     public int gridX;
@@ -10,10 +11,13 @@ public class Node {
 
     public int gCost;
     public int hCost;
+	
+	// Родительский узел
     public Node parent;
 
     public Node(bool _walkable, Vector2 _worldPos, int _gridX, int _gridY)
     {
+	
         walkable = _walkable;
         worldPos = _worldPos;
         gridX = _gridX;
