@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428400}
+  - 33: {fileID: 3390924}
+  - 23: {fileID: 2379850}
+  - 60: {fileID: 6052770}
+  m_Layer: 0
+  m_Name: Hangar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &428400
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119824}
+  m_LocalRotation: {x: -0.7071067, y: -0.7071068, z: 0.000000115202326, w: -0.00000011520231}
+  m_LocalPosition: {x: -0.004, y: -0.204, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.1}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: -90}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2379850
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119824}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8a2249186e823aa4a8a67c3eb9f4a7bd, type: 2}
+  - {fileID: 2100000, guid: 5af0a7a8ac3aead4c84be9fefb87b03a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3390924
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119824}
+  m_Mesh: {fileID: 4300000, guid: 6828055a16ae92641818c4b1dbd01eb7, type: 3}
+--- !u!60 &6052770
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -29.73522, y: 28.56681}
+      - {x: -26.906776, y: 32.46481}
+      - {x: -17.463535, y: 32.122635}
+      - {x: -16.926224, y: 34.574677}
+      - {x: -13.486174, y: 35.156273}
+      - {x: -12.482947, y: 32.649826}
+      - {x: -2.3030498, y: 32.518032}
+      - {x: -1.3337369, y: 34.749153}
+      - {x: 1.9890561, y: 35.432175}
+      - {x: 3.2554178, y: 32.828407}
+      - {x: 12.563454, y: 32.409363}
+      - {x: 17.137423, y: 37.05309}
+      - {x: 21.444454, y: 37.483627}
+      - {x: 22.05204, y: 45.096046}
+      - {x: 44.5001, y: 44.61473}
+      - {x: 46.319347, y: 37.315308}
+      - {x: 49.898296, y: 37.048946}
+      - {x: 84.51172, y: 8.37707}
+      - {x: 84.02499, y: -8.504417}
+      - {x: 49.37872, y: -37.572964}
+      - {x: 46.04185, y: -37.20117}
+      - {x: 45.620773, y: -44.285732}
+      - {x: 22.00447, y: -44.605457}
+      - {x: 21.686947, y: -36.851204}
+      - {x: 17.593065, y: -37.050186}
+      - {x: 12.444056, y: -32.82913}
+      - {x: 3.4382408, y: -32.285038}
+      - {x: 2.9572258, y: -34.28339}
+      - {x: -0.83848715, y: -34.710136}
+      - {x: -1.0505413, y: -32.66305}
+      - {x: -12.685058, y: -32.344955}
+      - {x: -12.969049, y: -34.634106}
+      - {x: -16.892967, y: -35.08071}
+      - {x: -17.061052, y: -32.791893}
+      - {x: -27.122189, y: -32.618732}
+      - {x: -29.096912, y: -28.440687}
+      - {x: -42.694237, y: -28.17831}
+      - {x: -42.572384, y: -19.902063}
+      - {x: 17.39287, y: -20.583216}
+      - {x: 17.888393, y: 20.578606}
+      - {x: -42.887897, y: 19.961544}
+      - {x: -42.773376, y: 27.75957}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 119824}
+  m_IsPrefabParent: 1
